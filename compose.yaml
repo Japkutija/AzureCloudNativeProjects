@@ -1,0 +1,7 @@
+﻿services:
+  azurecloudnativeprojects:
+    image: azurecloudnativeprojects
+    build:
+      context: .
+      dockerfile: AzureCloudNativeProjects/Dockerfile
+
