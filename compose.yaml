@@ -1,7 +1,6 @@
 ﻿services:
-  azurecloudnativeprojects:
-    image: azurecloudnativeprojects
+  webhookdelivery:
+    image: webhookdelivery
     build:
       context: .
-      dockerfile: AzureCloudNativeProjects/Dockerfile
-
+      dockerfile: WebhookDelivery/Dockerfile
